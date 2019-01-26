@@ -1,0 +1,48 @@
+#part1{
+    color : white ;
+    background-image : url("../res/back.jpg");
+    height: 300px;
+    width :100%;
+
+    background-size:cover ;
+    background-position: center center;
+    padding: 50px;
+
+
+    
+}
+.title{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 6em;
+}
+h2{
+   color : blue ;
+   font-size: 4em;
+   font-family: 'Bree Serif', serif
+}
+
+.articles{
+    width: 80%;
+    margin: auto;
+}
+
+.article{
+
+    display: inline-block;
+    width: 40%;
+    background: lightgray;
+    margin: 0px ;
+    padding: 40px ;
+
+}
+
+.article:hover{
+    border: black 5px solid;
+}
+.spetiale{
+    background: darkslategrey ;
+    color: white;
+}
